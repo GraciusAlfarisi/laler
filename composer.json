@@ -1,0 +1,22 @@
+{
+    "name": "shutdown57/laler",
+    "description": "Laravel debug and environment hunter",
+    "type": "project",
+    "require": {
+        "symfony/console": "5.4.x-dev"
+    },
+    "autoload": {
+        "classmap": [
+            "app/command",
+            "app/services"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shutdown57",
+            "email": "indonesianpeople.shutdown57@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

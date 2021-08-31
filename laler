@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+require 'vendor/autoload.php';
+
+use App\Command\Exploit;
+use App\Command\Reverse;
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+
+$application->add(new Exploit());
+$application->add(new Reverse());
+
+
+$application->run();
